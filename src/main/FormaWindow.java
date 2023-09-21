@@ -1,3 +1,5 @@
+package main;
+
 import javax.swing.*;
 
 public class FormaWindow extends JFrame
@@ -9,7 +11,7 @@ public class FormaWindow extends JFrame
         jFrame.setSize(400, 400);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.add(formaPanel);
-        jFrame.setTitle("Forma (dev)");
+        jFrame.setTitle("main.Forma (dev)");
         jFrame.setVisible(true);
     }
 }

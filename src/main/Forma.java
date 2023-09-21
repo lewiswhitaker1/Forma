@@ -1,3 +1,5 @@
+package main;
+
 public class Forma
 {
     private FormaWindow formaWindow;
@@ -6,5 +8,6 @@ public class Forma
     {
         formaPanel = new FormaPanel();
         formaWindow = new FormaWindow(formaPanel);
+        formaPanel.requestFocus();
     }
 }
